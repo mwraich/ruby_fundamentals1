@@ -6,4 +6,4 @@ puts "Hi #{name}!"
 #Age
 puts "What is your age?"
 age = gets.chomp.to_i
-puts "You #{age}"
+puts "You were born in #{2016 - age}"
